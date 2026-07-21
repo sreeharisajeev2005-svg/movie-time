@@ -1,26 +1,42 @@
 function Movies() {
   return (
-    <div className="app">
-      <h1>🎬 Movies</h1>
+    <div className="home">
+      <h1>🎬 Now Showing</h1>
 
-      <div className="movie-card">
-        <img
-          src="https://image.tmdb.org/t/p/w300/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
-          alt="Avengers Endgame"
-        />
-        <h2>Avengers: Endgame</h2>
-        <p>⭐ 4.9/5</p>
-        <button>Book Now</button>
-      </div>
+      <div className="featured">
 
-      <div className="movie-card">
-        <img
-          src="https://image.tmdb.org/t/p/w300/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
-          alt="Interstellar"
-        />
-        <h2>Interstellar</h2>
-        <p>⭐ 4.8/5</p>
-        <button>Book Now</button>
+        <div className="movie-card">
+          <h2>🚀 Interstellar</h2>
+          <p>⭐ IMDb: 8.7</p>
+          <p>🎭 Sci-Fi</p>
+          <p>⏱ 2h 49m</p>
+          <button>View Details</button>
+        </div>
+
+        <div className="movie-card">
+          <h2>🦇 The Dark Knight</h2>
+          <p>⭐ IMDb: 9.0</p>
+          <p>🎭 Action</p>
+          <p>⏱ 2h 32m</p>
+          <button>View Details</button>
+        </div>
+
+        <div className="movie-card">
+          <h2>⚡ Avengers: Endgame</h2>
+          <p>⭐ IMDb: 8.4</p>
+          <p>🎭 Superhero</p>
+          <p>⏱ 3h 1m</p>
+          <button>View Details</button>
+        </div>
+
+        <div className="movie-card">
+          <h2>🕷 Spider-Man: No Way Home</h2>
+          <p>⭐ IMDb: 8.2</p>
+          <p>🎭 Adventure</p>
+          <p>⏱ 2h 28m</p>
+          <button>View Details</button>
+        </div>
+
       </div>
     </div>
   );
